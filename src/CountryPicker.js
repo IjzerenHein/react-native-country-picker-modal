@@ -10,7 +10,6 @@ import {
   View,
   Image,
   TouchableOpacity,
-  Modal,
   Text,
   TextInput,
   FlatList,
@@ -22,6 +21,7 @@ import Fuse from 'fuse.js'
 
 import cca2List from '../data/cca2.json'
 import { getHeightPercent } from './ratio'
+import Modal from './Modal';
 import CloseButton from './CloseButton'
 import countryPickerStyles from './CountryPicker.style'
 import KeyboardAvoidingView from './KeyboardAvoidingView'
