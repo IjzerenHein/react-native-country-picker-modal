@@ -213,6 +213,15 @@ renderFilter = ({value, onChange, onClose}) => (
    />
 )
 ```
+
+## Web support
+
+This project also works with `react-native-web`. In order to make it work on the web, install the following additional dependency:
+
+```bash
+$ yarn add modal-enhanced-react-native-web
+```
+
 ## Dependencies
 
 * world-countries : https://www.npmjs.com/package/world-countries
