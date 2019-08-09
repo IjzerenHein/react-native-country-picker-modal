@@ -30,7 +30,7 @@ let countries = null
 let Emoji = null
 let styles = {}
 
-let isEmojiable = Platform.OS === 'ios'
+let isEmojiable = (Platform.OS === 'ios') || (Platform.OS === 'web');
 
 const FLAG_TYPES = {
   flat: 'flat',
